@@ -1,0 +1,23 @@
+.contact-us-btn {
+    display: flex;
+    height: 41.34px;
+    width: 131.77px;
+    background-color: $color-orange-2;
+    color: $color-white-1;
+    font-size: 14px;
+    align-items: center;
+    place-content: center;
+    border-radius: $base-border-radius * 3;
+}
+
+.get-more-details-btn {
+    display: flex;
+    height: 53px;
+    width: 195px;
+    background-color: $color-orange-3;
+    color: $color-white-1;
+    font-size: 14px;
+    align-items: center;
+    place-content: center;
+    border-radius: $base-border-radius * 20;
+}

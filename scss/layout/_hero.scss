@@ -1,0 +1,44 @@
+.hero-container {
+    display: flex;
+    margin: $base-margin * 5 $base-margin * 10;
+    @media (min-width: 2560px) {
+        margin: $base-margin * 5 $base-margin * 40;
+    }
+}
+.hero-texts {
+    display: flex;
+    width: 512px;
+    flex-direction: column;
+    h2 {
+        color: $color-orange-1;
+    }
+    h1 {
+        margin: 0;
+        font-size: $font-size-xxl * 1.2;
+        line-height: $base-line-height * 4;
+    }
+    p {
+        line-height: $base-line-height * 1.5;
+        margin-bottom: $base-margin * 4;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        div {
+            display: inherit;
+            gap: 20px;
+
+            img {
+                width: 75px;
+            }
+        }
+    }
+}
+.joystick-bg {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: transparent;
+}

@@ -1,0 +1,19 @@
+//----- variables -----
+@import './utils/variables';
+
+//----- base -----
+@import './base/base';
+
+//----- layout -----
+@import './layout/navigation';
+@import './layout//hero';
+
+//----- components -----
+@import './components/buttons';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: black;
+    color: $color-white-1;
+}

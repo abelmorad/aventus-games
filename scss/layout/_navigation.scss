@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    align-items: center;
+    margin: $base-margin * 2  $base-margin * 3;
+    justify-content: space-between;
+
+    .nav-links-wrapper {
+        display: inherit;
+        align-items: inherit;
+        gap: 5rem;
+    }
+}
+
+.logo {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-9;
+    font-style: italic;
+}
