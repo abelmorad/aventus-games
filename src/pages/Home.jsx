@@ -17,6 +17,13 @@ import arvr from '../../public/images/services/arvr.svg'
 import vrdev from '../../public/images/services/vrdev.svg'
 import threedmodel from '../../public/images/services/3dmodel.svg'
 
+import project1 from '../../public/images/recentprojects/1.svg'
+import project2 from '../../public/images/recentprojects/2.svg'
+import project3 from '../../public/images/recentprojects/3.svg'
+import project4 from '../../public/images/recentprojects/4.svg'
+import project5 from '../../public/images/recentprojects/5.svg'
+import project6 from '../../public/images/recentprojects/6.svg'
+
 import Card from '../components/Card'
 
 export default function Home() {
@@ -93,6 +100,18 @@ export default function Home() {
             <div className="recent-project-title">
                 <h1>Our Recent Projects</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe accusantium earum ea magnam quaerat in!</p>
+            </div>
+            <div className='project-images-wrapper'>
+                <div className='project-one'>
+                    <img src={project1} alt="project1" />
+                    <img src={project2} alt="project2" />
+                    <img src={project3} alt="project3" />
+                </div>
+                <div className='project-two'>
+                    <img src={project5} alt="project5" />
+                    <img src={project4} alt="project4" />
+                    <img src={project6} alt="project6" />
+                </div>
             </div>
         </section>
     </>

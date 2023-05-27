@@ -124,5 +124,22 @@
 }
 //recent projects section
 .recent-project-section {
-    @include homePageMargin()
+    @include homePageMargin();
+    align-items: center;
+
+    .recent-project-title {
+        text-align: center;
+    }
+    .project-images-wrapper {
+        @include flexColumn();
+        gap: 20px;
+        .project-one {
+            display: flex;
+            gap: 20px;
+        }
+        .project-two {
+            display: flex;
+            gap: 20px;
+        }
+    }
 }
