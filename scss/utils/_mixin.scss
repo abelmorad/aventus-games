@@ -8,3 +8,13 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@mixin homePageMargin() {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin: $base-margin * 5 $base-margin * 10;
+    @media (min-width: 2560px) {
+        margin: $base-margin * 5 $base-margin * 40;
+    }
+}

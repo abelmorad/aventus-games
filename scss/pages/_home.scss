@@ -1,11 +1,5 @@
 .home-page {
-    display: flex;
-    flex-direction: column;
-    gap: 7rem;
-    margin: $base-margin * 5 $base-margin * 10;
-    @media (min-width: 2560px) {
-        margin: $base-margin * 5 $base-margin * 40;
-    }
+   @include homePageMargin();
 }
 
 //hero section
@@ -94,4 +88,14 @@
         height: 154px;
         width: 196px;
     }
+}
+
+//services section
+.services-section {
+    margin: 0 0;
+    background-image: url(../../public/images/mountain.svg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 881px;
+    filter: brightness(30%);
 }

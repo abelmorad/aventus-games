@@ -3,16 +3,17 @@ import cry from '../../public/images/gamingplatform/cry.svg'
 import unity from '../../public/images/gamingplatform/unity.svg'
 import unreal from '../../public/images/gamingplatform/unreal.svg'
 
-import game1 from '../../public/images/games/1.png'
-import game2 from '../../public/images/games/2.png'
-import game3 from '../../public/images/games/3.png'
-import game4 from '../../public/images/games/4.png'
-import spiderman from '../../public/images/games/spiderman.png'
+import game1 from '../../public/images/games/1.svg'
+import game2 from '../../public/images/games/2.svg'
+import game3 from '../../public/images/games/3.svg'
+import game4 from '../../public/images/games/4.svg'
+import spiderman from '../../public/images/games/spiderman.svg'
 import dots from '../../public/images/dots.png'
 
 export default function Home() {
     return (
-        <main className='home-page'>
+        <>
+        <section className='home-page'>
             <section className="hero-container">
                 <div className="hero-texts">
                     <h2>3D GAME DEVELOPER</h2>
@@ -54,6 +55,11 @@ export default function Home() {
                 <img className='dots'  src={dots} alt="dots" />
                 <img src={spiderman} alt="spiderman" />
             </section>
-        </main>
+        </section>
+            {/* services */}
+        <section className="services-section">
+
+        </section>
+    </>
     )
 }
