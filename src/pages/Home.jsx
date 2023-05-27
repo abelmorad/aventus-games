@@ -88,6 +88,13 @@ export default function Home() {
             </div>
             <div className="mountain-bg"></div>
         </section>
+        {/* recent projects */}
+        <section className="recent-project-section">
+            <div className="recent-project-title">
+                <h1>Our Recent Projects</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe accusantium earum ea magnam quaerat in!</p>
+            </div>
+        </section>
     </>
     )
 }

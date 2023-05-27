@@ -18,3 +18,15 @@
         margin: $base-margin * 5 $base-margin * 40;
     }
 }
+
+@mixin titleFlexAbsolute() {
+    z-index: 5;
+        position: absolute;
+        margin-top: 93px;
+        text-align: center;
+        padding: 0 30%;
+        
+        h1 {
+            margin-bottom: $base-margin * 2;
+        }
+}
