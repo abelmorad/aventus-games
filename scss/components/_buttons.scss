@@ -1,3 +1,11 @@
+@mixin LinkAsBtn() {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    border-radius: $base-border-radius * 3;
+    color: $color-white-1;
+}
+
 .contact-us-btn {
     display: flex;
     height: 41.34px;
@@ -20,4 +28,11 @@
     align-items: center;
     place-content: center;
     border-radius: $base-border-radius * 20;
+}
+
+.see-all-btn {
+    @include LinkAsBtn();
+    height: 57px;
+    width: 137px;
+    background-color: $bg-color-1;
 }

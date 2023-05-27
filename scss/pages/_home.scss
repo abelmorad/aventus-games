@@ -1,10 +1,14 @@
-.hero-container {
+.home-page {
     display: flex;
+    flex-direction: column;
+    gap: 7rem;
     margin: $base-margin * 5 $base-margin * 10;
     @media (min-width: 2560px) {
         margin: $base-margin * 5 $base-margin * 40;
     }
 }
+
+//hero section
 .hero-texts {
     display: flex;
     width: 512px;
@@ -41,4 +45,41 @@
     right: 0;
     position: absolute;
     background: transparent;
+}
+
+//trending games section
+.trending-games-section {
+    @include flexColumn();
+    gap: 4rem;
+
+    .trending-title {
+        @include flexSpaceBetween();
+    }
+    
+    .trending-games-cards {
+        @include flexSpaceBetween();
+    }
+    
+}
+//goty section
+.goty-section {
+    @include flexColumn();
+    p {
+        font-weight: $font-weight-6;
+        font-size: $font-size-xl;
+        text-align: center;
+    }
+    div {
+        margin-bottom: $base-margin * 3;
+        .game-title {
+            font-weight: $font-weight-6;
+            font-size: $font-size-l;
+        }
+        p {
+            font-size: $font-size-m;
+            text-align: start;
+            padding-right: 50%;
+            font-weight: $font-weight-4;
+        }
+    }
 }

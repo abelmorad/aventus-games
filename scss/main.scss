@@ -1,19 +1,24 @@
 //----- variables -----
 @import './utils/variables';
+@import './utils/mixin';
 
 //----- base -----
 @import './base/base';
 
 //----- layout -----
 @import './layout/navigation';
-@import './layout//hero';
 
 //----- components -----
 @import './components/buttons';
 
+//----- pages -----
+@import './pages/_home';
+
 * {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    background-color: black;
     color: $color-white-1;
+}
+html {
+    background: linear-gradient(179.5deg, #010101 -15.71%, #1A0E01 99.57%);
 }
