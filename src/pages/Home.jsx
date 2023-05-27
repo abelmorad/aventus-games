@@ -10,6 +10,15 @@ import game4 from '../../public/images/games/4.svg'
 import spiderman from '../../public/images/games/spiderman.svg'
 import dots from '../../public/images/dots.png'
 
+import mobiledev from '../../public/images/services/mobiledev.svg'
+import pcgamedev from '../../public/images/services/pcgamedev.svg'
+import consoledev from '../../public/images/services/consoledev.svg'
+import arvr from '../../public/images/services/arvr.svg'
+import vrdev from '../../public/images/services/vrdev.svg'
+import threedmodel from '../../public/images/services/3dmodel.svg'
+
+import Card from '../components/Card'
+
 export default function Home() {
     return (
         <>
@@ -57,8 +66,27 @@ export default function Home() {
             </section>
         </section>
             {/* services */}
-        <section className="services-section">
-
+        <section className= "services-section">
+            <div className='services-title'>
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, qui! Natus, modi.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste modi dignissimos 
+                    architecto rerum, asperiores magni reiciendis, suscipit vitae, magnam labore tempora harum fuga incidunt.
+                </p>
+            </div>
+            <div className="services-cards">
+                <Card src={mobiledev} alt={"mobile game dev"} servicetype={"Mobile Game Development"}/>
+                <Card src={pcgamedev} alt={"pc game dev"} servicetype={"PC Game Development"}/>
+                <Card src={consoledev} alt={"console game"} servicetype={"Console Game Development"}/>
+                <Card src={arvr} alt={"ar vr solutions"} servicetype={"AR/VR Solutions"}/>
+                <div></div>
+                <Card src={vrdev} alt={"ar vr design"} servicetype={"AR/VR Design"}/>
+                <Card src={threedmodel} alt={"3d modeling"} servicetype={"3D Modeling"}/>
+                <div></div>
+            </div>
+            <div className="mountain-bg"></div>
         </section>
     </>
     )
