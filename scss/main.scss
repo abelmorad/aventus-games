@@ -12,13 +12,13 @@
 @import './components/buttons';
 
 //----- pages -----
-@import './pages/_home';
+@import './pages/home';
+
+//----- themes -----
+@import './themes/theme';
 
 * {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: $color-white-1;
-}
-html {
-    background: linear-gradient(179.5deg, #010101 -15.71%, #1A0E01 99.57%);
 }

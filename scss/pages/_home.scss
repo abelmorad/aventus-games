@@ -61,6 +61,7 @@
     }
     
 }
+
 //goty section
 .goty-section {
     @include flexColumn();
@@ -81,5 +82,16 @@
             padding-right: 50%;
             font-weight: $font-weight-4;
         }
+    }
+
+    .dots {
+        z-index: -1;
+        margin-top: 250px;
+        margin-left: 800px;
+        position: absolute;
+        width: 196px;
+        height: 154px;
+        height: 154px;
+        width: 196px;
     }
 }

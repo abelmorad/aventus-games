@@ -8,6 +8,7 @@ import game2 from '../../public/images/games/2.png'
 import game3 from '../../public/images/games/3.png'
 import game4 from '../../public/images/games/4.png'
 import spiderman from '../../public/images/games/spiderman.png'
+import dots from '../../public/images/dots.png'
 
 export default function Home() {
     return (
@@ -50,6 +51,7 @@ export default function Home() {
                     <p className='game-title'>Spider Man</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis fugit nihil nostrum voluptatibus, mollitia suscipit natus ipsam dignissimos nobis tempora fuga provident, totam est eveniet voluptatem illo odit architecto.</p>
                 </div>
+                <img className='dots'  src={dots} alt="dots" />
                 <img src={spiderman} alt="spiderman" />
             </section>
         </main>
