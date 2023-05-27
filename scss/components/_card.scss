@@ -8,6 +8,9 @@
     border-radius: $base-border-radius * 6;
 
     img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 60px;
         width: 60px;
         border-radius: $base-border-radius * 50;

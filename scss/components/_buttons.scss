@@ -16,6 +16,7 @@
     align-items: center;
     place-content: center;
     border-radius: $base-border-radius * 3;
+    cursor: pointer;
 }
 
 .get-more-details-btn {
@@ -28,6 +29,7 @@
     align-items: center;
     place-content: center;
     border-radius: $base-border-radius * 20;
+    cursor: pointer;
 }
 
 .see-all-btn {
@@ -35,4 +37,5 @@
     height: 57px;
     width: 137px;
     background-color: $bg-color-1;
+    cursor: pointer;
 }

@@ -52,7 +52,7 @@ export default function Home() {
             <section className='trending-games-section'>
                 <div className="trending-title">
                     <h2>Currently Trending Games</h2>
-                    <a className='see-all-btn'>SEE ALL</a>
+                    <a className='see-all-btn' >SEE ALL</a>
                 </div>
                 <div className="trending-games-cards">
                     <img src={game1} alt="For honor" />
@@ -113,6 +113,7 @@ export default function Home() {
                     <img src={project6} alt="project6" />
                 </div>
             </div>
+            <a className='see-all-btn'>See All</a>
         </section>
     </>
     )
