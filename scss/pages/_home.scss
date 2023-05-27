@@ -52,6 +52,10 @@
     
     .trending-games-cards {
         @include flexSpaceBetween();
+        
+        img {
+            @include imagesOrangeOutlineBorderRadius20();
+        }
     }
     
 }
@@ -136,10 +140,18 @@
         .project-one {
             display: flex;
             gap: 20px;
+            
+            img {
+                @include imagesOrangeOutlineBorderRadius20();
+            }
         }
         .project-two {
             display: flex;
             gap: 20px;
+
+            img {
+                @include imagesOrangeOutlineBorderRadius20();
+            }
         }
     }
 }
