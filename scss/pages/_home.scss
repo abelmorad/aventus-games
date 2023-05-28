@@ -108,12 +108,13 @@
         position: absolute;
         margin-top: 350px;
         text-align: center;
-        width: 100vw;
+
+        left: 50%;
+        transform: translate(-50%, 0);
 
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(4, auto);
-        justify-content: center;
     }
 
     .mountain-bg {
