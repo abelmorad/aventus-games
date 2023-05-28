@@ -1,0 +1,22 @@
+.subscribe-section {
+    @include homePageMargin();
+    .subscribe-title {
+        width: 50%;
+        h1 {
+            @include h1fontXLfontW500();
+        }
+    }
+
+    .subscribe {
+        @include flexSpaceBetween();
+        border-radius: $border-radius-12;
+        padding: $base-padding * 2;
+        height: 189px;
+        background-color: #1C140F;
+        gap: 100px;
+        h1 {
+            @include h1fontXLfontW500();
+            margin: 0;
+        }
+    }
+}
