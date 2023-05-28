@@ -39,3 +39,11 @@
     background-color: $bg-color-1;
     cursor: pointer;
 }
+
+.continue-btn {
+    @include LinkAsBtn();
+    background-color: $color-orange-2;
+    border: none;
+    height: 37px;
+    width: 105px;
+}
