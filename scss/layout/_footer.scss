@@ -1,0 +1,28 @@
+footer {
+    @include flexColumn();
+    justify-content: center;
+    background-color: $bg-color-black;
+    .footer-wrapper {
+        @include flexRowMargin8();
+        div {
+            @include flexColumn();
+            h2 {
+                margin: 0;
+            }
+        }
+        .company-logo-wrapper {
+            width: 372px;
+        }
+        .contact-us-wrapper {
+            width: 282px;
+        }
+        .social-link-wrapper {
+            @include flexRow();
+        }
+    }
+    .copy-right {
+        border-top: 2px solid $color-white-1;
+        padding-top: 15px;
+        text-align: center;
+    }
+}

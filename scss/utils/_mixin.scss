@@ -3,6 +3,21 @@
     flex-direction: column;
 }
 
+@mixin flexRow() {
+    display: flex;
+    flex-direction: row;
+}
+@mixin flexRowMargin8() {
+    display: flex;
+    flex: row;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin: $base-margin * 5 $base-margin * 8;
+    @media (min-width: 2560px) {
+        margin: $base-margin * 5 $base-margin * 40;
+    }
+}
 @mixin flexSpaceBetween() {
     display: flex;
     justify-content: space-between;

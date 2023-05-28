@@ -26,6 +26,7 @@ import project6 from '../../public/images/recentprojects/6.svg'
 
 import Card from '../components/Card'
 import Subscribe from '../components/Subscribe'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
@@ -117,6 +118,7 @@ export default function Home() {
             <a className='see-all-btn'>See All</a>
         </section>
         <Subscribe />
+        <Footer />
     </>
     )
 }
