@@ -1,0 +1,17 @@
+.email-input-wrapper {
+    @include flexSpaceBetween();
+    width: 385px;
+    height: 48px;
+    .continue-btn {
+        position: absolute;
+        margin-left: 272px;
+    }
+}
+
+.input-email {
+    width: 385px;
+    height: 48px;
+    padding-left: 20px;
+    border-radius: $base-border-radius * 5;
+    color: #000000;
+}
