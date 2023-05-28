@@ -12,7 +12,6 @@
     flex: row;
     align-items: start;
     justify-content: space-evenly;
-    gap: 100px;
     margin: $base-margin * 5 $base-margin * 8;
     @media (min-width: 2560px) {
         margin: $base-margin * 5 $base-margin * 40;
