@@ -25,11 +25,12 @@ import project5 from '../../public/images/recentprojects/5.svg'
 import project6 from '../../public/images/recentprojects/6.svg'
 
 import Card from '../components/Card'
+import Subscribe from '../components/Subscribe'
 
 export default function Home() {
     return (
         <>
-        <section className='home-page'>
+        <main className='home-page'>
             <section className="hero-container">
                 <div className="hero-texts">
                     <h2>3D GAME DEVELOPER</h2>
@@ -71,7 +72,7 @@ export default function Home() {
                 <img className='dots'  src={dots} alt="dots" />
                 <img src={spiderman} alt="spiderman" />
             </section>
-        </section>
+        </main>
             {/* services */}
         <section className= "services-section">
             <div className='services-title'>
@@ -115,6 +116,7 @@ export default function Home() {
             </div>
             <a className='see-all-btn'>See All</a>
         </section>
+        <Subscribe />
     </>
     )
 }
