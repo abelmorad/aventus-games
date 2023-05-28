@@ -35,3 +35,8 @@
     outline: 2px solid $color-orange-1;
     border-radius: $border-radius-12;
 }
+
+@mixin h1fontXLfontW500() {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-5;
+}
