@@ -7,10 +7,12 @@
 
 //----- layout -----
 @import './layout/navigation';
+@import './layout/subscribe';
 
 //----- components -----
 @import './components/buttons';
 @import './components/card';
+@import './components/inputEmail';
 
 //----- pages -----
 @import './pages/home';
