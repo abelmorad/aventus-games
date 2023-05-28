@@ -1,25 +1,16 @@
-// .nav-container {
-    
+.nav-links-wrapper {
+    display: flex;
+    align-items: center;
+    margin: $base-margin  $base-margin * 3;
+    justify-content: space-between;
 
-    .nav-links-wrapper {
-        display: flex;
+    ul {
+        display: inherit;
         align-items: center;
-        margin: $base-margin * 2  $base-margin * 3;
-
-        ul {
-            display: inherit;
-            align-items: center;
-            gap: 5rem;
-        }
-
-        a.active {
-            color: $color-orange-2;
-        }
+        gap: 5rem;
     }
-// }
 
-.logo {
-    font-size: $font-size-xl;
-    font-weight: $font-weight-9;
-    font-style: italic;
+    a.active {
+        color: $color-orange-2;
+    }
 }
