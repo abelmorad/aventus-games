@@ -33,3 +33,19 @@
     background-color: #1C140F;
     border-radius: $base-border-radius * 10;
 }
+
+.our-team-card {
+    @include flexColumn();
+    text-align: center;
+    padding: $base-padding * 2;
+    height: 150px;
+    width: 190px;
+    background-color: #1C140F;
+    border-radius: $base-border-radius * 10;
+
+    img {
+        place-self: center;
+        height: 100px;
+        width: 100px;
+    }
+}
