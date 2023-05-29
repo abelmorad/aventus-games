@@ -44,4 +44,13 @@
             line-height: 2.5ch;
         }
     }
+
+    .our-team-container {
+        @include flexColumn();
+
+        .our-team-wrapper {
+            @include flexRow();
+            justify-content: space-between;
+        }
+    }
 }
