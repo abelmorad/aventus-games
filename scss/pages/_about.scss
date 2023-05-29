@@ -1,0 +1,47 @@
+.about-hero-wrapper {
+    @include flexRow();
+    gap: 250px;
+
+    .about-heading-wrapper {
+        @include flexColumn();
+        gap: 40px;
+        place-content: center;
+        margin-left: $base-margin * 8;
+        
+        h2 {
+            line-height: 3.5ch;
+        }
+
+        p {
+            line-height: 3ch;
+        }
+    }
+}
+.about-us-container {
+    @include aboutPageMargin();
+
+    .work-with-us-container {
+        @include flexColumn();
+        gap: 50px;
+
+        .work-with-us-wrapper {
+            @include flexRow();
+            gap: 50px;
+        }
+    }
+
+    .our-company-container {
+        @include flexRow();
+        align-items: center;
+        gap: 100px;
+
+        h1 {
+            line-height: 2.5ch;
+            @include h1fontXLfontW500();
+        }
+
+        p {
+            line-height: 2.5ch;
+        }
+    }
+}
