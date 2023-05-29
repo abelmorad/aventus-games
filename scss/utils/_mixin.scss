@@ -27,9 +27,18 @@
     display: flex;
     flex-direction: column;
     gap: 7rem;
-    margin: $base-margin * 5 $base-margin * 10;
+    margin: $base-margin * 2 $base-margin * 10;
     @media (min-width: 2560px) {
-        margin: $base-margin * 5 $base-margin * 40;
+        margin: $base-margin * 2 $base-margin * 40;
+    }
+}
+@mixin aboutPageMargin() {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin: $base-margin * 5 $base-margin * 8;
+    @media (min-width: 2560px) {
+        margin: $base-margin * 2 $base-margin * 30;
     }
 }
 
