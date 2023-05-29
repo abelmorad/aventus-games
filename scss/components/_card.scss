@@ -22,3 +22,14 @@
         color: $color-orange-1;
     }
 }
+
+.work-with-us-card {
+    @include flexColumn();
+    text-align: start;
+    place-content: center;
+    padding: $base-padding * 2;
+    height: 250px;
+    width: 348px;
+    background-color: #1C140F;
+    border-radius: $base-border-radius * 10;
+}
