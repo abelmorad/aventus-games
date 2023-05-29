@@ -1,5 +1,6 @@
 .subscribe-section {
     @include homePageMargin();
+    margin-bottom: $base-margin * 8;
     .subscribe-title {
         width: 50%;
         h1 {
